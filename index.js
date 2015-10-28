@@ -67,7 +67,7 @@ module.exports = {
     "no-labels": 0,
     "no-lone-blocks": 1,
     "no-loop-func": 1,
-    "no-multi-spaces": [1, { exceptions: { "VariableDeclarator": true, "ImportDeclaration": true, "CallExpression": true }}],
+    "no-multi-spaces": [1, { exceptions: { "ImportDeclaration": true }}],
     "no-multi-str": 1,
     "no-native-reassign": 1,
     "no-new-func": 1,
