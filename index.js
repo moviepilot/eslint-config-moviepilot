@@ -154,6 +154,7 @@ module.exports = {
     "react/react-in-jsx-scope": 1,
     "react/self-closing-comp": 1,
 
+    "arrow-parens": [1, "as-needed"],
     "max-len": [1, 80, 2]
   }
 }
