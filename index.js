@@ -10,7 +10,6 @@ module.exports = {
     "browser": true
   },
   "rules": {
-    "comma-dangle": 0,
     "no-cond-assign": 1,
     "no-console": 0,
     "no-constant-condition": 1,
