@@ -20,12 +20,12 @@
   },
   "homepage": "https://github.com/moviepilot/eslint-config-moviepilot#readme",
   "dependencies": {
-    "babel-eslint": "5.x",
-    "eslint-plugin-react": "3.x"
+    "babel-eslint": "latest",
+    "eslint-plugin-react": "latest"
   },
   "peerDependencies": {
-    "babel-eslint": "5.x",
-    "eslint-plugin-react": "3.x"
+    "babel-eslint": "latest",
+    "eslint-plugin-react": "latest"
   },
   "license": "MIT"
 }
