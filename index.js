@@ -136,6 +136,7 @@ module.exports = {
 
     "new-parens": 1,
     "no-underscore-dangle": 0,
+    "comma-dangle": 0,
     "quotes": [ 1, "single" ],
     "semi": [1, "never"],
     "new-cap": 1,
@@ -143,7 +144,7 @@ module.exports = {
     "space-after-keywords": [1, "always"],
     "eol-last": 1,
     "react/jsx-boolean-value": 1,
-    "jsx-quotes": 1,
+    "jsx-quotes": [1, "prefer-double"],
     "react/jsx-no-undef": 2,
     "react/jsx-uses-react": 1,
     "react/jsx-uses-vars": 1,
