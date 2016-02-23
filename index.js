@@ -1,15 +1,19 @@
 module.exports = {
-  "parser": "babel-eslint",
-  "settings": {
-    "ecmascript": 6,
-    "jsx": true
+  parser: "babel-eslint",
+  parserOptions: {
+    ecmaVersion: 6,
+    ecmaFeatures: {
+      jsx: true
+    }
   },
-  "plugins": [ "react" ],
-  "env": {
-    "node": true,
-    "browser": true
+  plugins: [ "react" ],
+  env: {
+    node: true,
+    browser: true,
+    es6: true
   },
-  "rules": {
+  rules: {
+    "indent": [1, 2, { "SwitchCase": 1 }],
     "no-cond-assign": 1,
     "no-console": 0,
     "no-constant-condition": 1,
@@ -52,7 +56,6 @@ module.exports = {
     "no-caller": 1,
     "no-div-regex": 1,
     "no-else-return": 0,
-    "no-empty-label": 1,
     "no-eq-null": 1,
     "no-eval": 1,
     "no-extend-native": 1,
@@ -63,7 +66,7 @@ module.exports = {
     "no-implied-eval": 1,
     "no-invalid-this": 0,
     "no-iterator": 1,
-    "no-labels": 0,
+    "no-labels": 1,
     "no-lone-blocks": 1,
     "no-loop-func": 1,
     "no-multi-spaces": [1, { exceptions: { "ImportDeclaration": true }}],
@@ -141,7 +144,7 @@ module.exports = {
     "semi": [1, "never"],
     "new-cap": 1,
     "no-mixed-spaces-and-tabs": [1, "smart-tabs"],
-    "space-after-keywords": [1, "always"],
+    "keyword-spacing": 1,
     "eol-last": 1,
     "react/jsx-boolean-value": 1,
     "jsx-quotes": [1, "prefer-double"],
