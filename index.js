@@ -41,7 +41,6 @@ module.exports = {
     "valid-jsdoc": 1,
     "valid-typeof": 1,
     "no-unexpected-multiline": 1,
-    "no-fallthrough": 1,
 
     "accessor-pairs": 1,
     "block-scoped-var": 1,
@@ -61,7 +60,7 @@ module.exports = {
     "no-eval": 1,
     "no-extend-native": 1,
     "no-extra-bind": 1,
-    "no-fallthrough": 0,
+    "no-fallthrough": 1,
     "no-floating-decimal": 1,
     "no-implicit-coercion": 0,
     "no-implied-eval": 1,
