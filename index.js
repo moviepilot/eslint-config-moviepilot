@@ -41,6 +41,7 @@ module.exports = {
     "valid-jsdoc": 1,
     "valid-typeof": 1,
     "no-unexpected-multiline": 1,
+    "no-fallthrough": 1,
 
     "accessor-pairs": 1,
     "block-scoped-var": 1,
