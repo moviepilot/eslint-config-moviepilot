@@ -129,6 +129,7 @@ module.exports = {
     "no-this-before-super": 1,
     "no-var": 1,
     "object-shorthand": 1,
+    "object-curly-spacing": [1, "always"],
     "prefer-arrow-callback": 1,
     "prefer-const": 1,
     "prefer-spread": 1,
@@ -136,6 +137,8 @@ module.exports = {
     "prefer-template": 1,
     "require-yield": 1,
     "space-infix-ops": 1,
+    "space-in-parens": [1, "never"],
+
 
     "new-parens": 1,
     "no-underscore-dangle": 0,
