@@ -4,7 +4,6 @@
   "description": "Moviepilot's ESLint config",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -20,12 +19,9 @@
   },
   "homepage": "https://github.com/moviepilot/eslint-config-moviepilot#readme",
   "dependencies": {
-    "babel-eslint": "^5.0.0",
-    "eslint-plugin-react": "^4.0.0"
+    "eslint": "2.8.x",
+    "babel-eslint": "6.x",
+    "eslint-plugin-react": "4.x"
   },
-  "peerDependencies": {
-    "babel-eslint": "^5.0.0",
-    "eslint-plugin-react": "^4.0.0"
-  },
-  "license": "MIT"
+  "license": "UNLICENSED"
 }
