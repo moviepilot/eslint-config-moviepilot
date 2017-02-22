@@ -18,9 +18,9 @@
   },
   "homepage": "https://github.com/moviepilot/eslint-config-moviepilot#readme",
   "dependencies": {
-    "eslint": "2.12.x",
-    "babel-eslint": "6.x",
-    "eslint-plugin-react": "5.x"
+    "eslint": "3.16.x",
+    "babel-eslint": "7.x",
+    "eslint-plugin-react": "6.x"
   },
   "license": "UNLICENSED"
 }
