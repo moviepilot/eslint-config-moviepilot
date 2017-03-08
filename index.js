@@ -139,7 +139,8 @@ module.exports = {
     "require-yield": 1,
     "space-infix-ops": 1,
     "space-in-parens": [1, "never"],
-
+    "func-style": [1, "declaration", { "allowArrowFunctions": true }],
+    
 
     "new-parens": 1,
     "no-underscore-dangle": 0,
