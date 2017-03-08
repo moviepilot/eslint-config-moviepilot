@@ -12,4 +12,7 @@ Moviepilot's ESLint config
 }
 ```
 
-Some editors (vim) won't find the local eslint binary, since it will be located under `node_modules`. There's a [nice workaround](http://blog.pixelastic.com/2015/10/05/use-local-eslint-in-syntastic/) for that.
+## Troubleshooting
+
+Issue: **vim can't find the local `eslint` binary, because it's located under `node_modules`.**
+Solution: There's a [nice workaround](http://blog.pixelastic.com/2015/10/05/use-local-eslint-in-syntastic/) for that.
