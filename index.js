@@ -13,6 +13,7 @@ module.exports = {
     es6: true
   },
   rules: {
+    "func-call-spacing": [1, "never"],
     "indent": [1, 2, { "SwitchCase": 1 }],
     "no-cond-assign": 1,
     "no-console": 0,
@@ -138,7 +139,9 @@ module.exports = {
     "require-yield": 1,
     "space-infix-ops": 1,
     "space-in-parens": [1, "never"],
-
+    "space-before-blocks": 1,
+    "func-style": [1, "declaration", { "allowArrowFunctions": true }],
+    
 
     "new-parens": 1,
     "no-underscore-dangle": 0,
