@@ -13,6 +13,7 @@ module.exports = {
     es6: true
   },
   rules: {
+    "func-call-spacing": [1, "never"],
     "indent": [1, 2, { "SwitchCase": 1 }],
     "no-cond-assign": 1,
     "no-console": 0,
