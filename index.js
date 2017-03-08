@@ -32,7 +32,7 @@ module.exports = {
     "no-inner-declarations": 1,
     "no-invalid-regexp": 1,
     "no-irregular-whitespace": 1,
-    "no-negated-in-lhs": 1,
+    "no-unsafe-negation": 1,
     "no-obj-calls": 1,
     "no-regex-spaces": 1,
     "no-sparse-arrays": 1,
