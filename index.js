@@ -71,7 +71,7 @@ module.exports = {
     "no-loop-func": 1,
     "no-multi-spaces": [1, { exceptions: { "ImportDeclaration": true }}],
     "no-multi-str": 1,
-    "no-native-reassign": 1,
+    "no-global-assign": 1,
     "no-new-func": 1,
     "no-new-wrappers": 1,
     "no-new": 1,
