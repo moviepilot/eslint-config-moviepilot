@@ -133,7 +133,6 @@ module.exports = {
     "prefer-arrow-callback": 1,
     "prefer-const": 1,
     "prefer-spread": 1,
-    "prefer-reflect": 1,
     "prefer-template": 1,
     "require-yield": 1,
     "space-infix-ops": 1,
