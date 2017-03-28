@@ -164,6 +164,10 @@ module.exports = {
     "react/self-closing-comp": 1,
 
     "arrow-parens": [1, "as-needed"],
-    "max-len": [1, 80, 2]
+    "max-len": ["error", 100, 2, {
+      ignoreUrls: true,
+      ignoreComments: false,
+      ignorePattern: "^import|require\\('"
+    }]
   }
 }
