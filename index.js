@@ -45,6 +45,7 @@ module.exports = {
 
     "accessor-pairs": 1,
     "block-scoped-var": 1,
+    "block-spacing": [1, "always"],
     "complexity": 0,
     "consistent-return": 1,
     "curly": 1,
